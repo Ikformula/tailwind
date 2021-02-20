@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>7t7 - My First Tailwind Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<!--header-->
+<div class="bg-blue-700 p-4 flex justify-between items-center shadow-xl">
+    <!--    left side-->
+    <div class="flex items-center">
+        <img src="https://www.svgrepo.com/show/217762/it.svg" class="mr-2" width="50" alt="Logo">
+        <a href="#" class="inline-block p-3 mr-2 hover:text-blue-100 text-blue-200">Home</a>
+        <a href="#" class="inline-block p-3 hover:text-blue-100 text-blue-200">About</a>
+    </div>
+
+    <!--    right side-->
+    <div class="hidden md:block">
+        <a href="#" class="inline-block p-3 mr-2 hover:text-blue-100 text-blue-200">Login</a>
+        <a href="#" class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 rounded hover:bg-yellow-300 hover:text-yellow-900 transition ease-in duration-150">Signup</a>
+    </div>
+
+</div>
+
+<!--hero-->
+<div class="md:flex justify-between px-10 py-20 bg-blue-600 text-blue-100">
+    <!--    left side-->
+    <div class="md:w-1/2 mb-10 md:my-auto ">
+        <h2 class="text-2xl md:text-4xl lg:text-5xl text-white mb-3 md:mb-6">Welcome To 7t7</h2>
+        <p class="mb-5">Technology solutions delivered without complexity</p>
+        <a href="#" class="inline-block py-3 px-6 mr-2 bg-gray-300 hover:bg-gray-200 rounded text-gray-700 hover:text-gray-900 transition ease-in duration-150">Learn More</a>
+        <a href="#" class="inline-block py-3 px-6 text-blue-700 bg-yellow-400 rounded hover:bg-yellow-300 hover:text-blue-900 transition ease-in duration-150">Get Started</a>
+    </div>
+
+
+    <!--    right side-->
+    <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1611095567219-8fa7d4d8bf48?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="man and woman smiling looking at a laptop" class="w-full rounded-lg shadow-xl hover:shadow-2xl">
+    </div>
+</div>
+<!--features-->
+<div class="md:flex py-16 px-10 bg-blue-800 text-blue-200 text-center">
+    <div class="mr-3 text-center">
+        <img src="https://source.unsplash.com/440x270/?technology" class="w-full mb-4 rounded border-blue-400">
+        <p>Feature 1</p>
+    </div>
+    <div class="mr-3 mt-8 text-center">
+        <img src="https://source.unsplash.com/440x270/?tech" class="w-full mb-4 rounded border-blue-400">
+        <p>Feature 2</p>
+    </div>
+    <div class="mr-3 text-center">
+        <img src="https://source.unsplash.com/440x270/?automotive" class="w-full mb-4 rounded border-blue-400">
+        <p>Feature 3</p>
+    </div>
+    <div class="mr-3 mt-8 text-center">
+        <img src="https://source.unsplash.com/440x270/?engineering" class="w-full mb-4 rounded border-blue-400">
+        <p>Feature 4</p>
+    </div>
+</div>
+
+
+<!--footer & newsletter-->
+<div class="p-10 bg-blue-900 text-blue-400 md:flex justify-between">
+
+    <!--    left side-->
+    <div class="md:w-1/2">
+        <h2>Join Our Newsletter</h2>
+        <form class="flex mt-2">
+            <input type="email" class="w-full rounded-l py-3 px-4 outline-none mr-0 focus:bg-blue-100">
+            <button class="bg-red-300 text-red-800 rounded-r ml-0 py-3 px-4">Submit</button>
+        </form>
+    </div>
+
+    <!--    right side-->
+    <div class="flex items-center">
+        <div class="md-hidden mt-7"
+        <p>Copyright &copy; 2021 - Infinity</p>
+    </div>
+</div>
+
+</body>
+</html>
